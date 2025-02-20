@@ -12,7 +12,8 @@
     "generate": "esno ./scripts/generate-play.ts",
     "lint": "eslint .",
     "translate": "esno ./scripts/translate-cli.ts",
-    "utils:release": "pnpm -C utils release"
+    "utils:release": "pnpm -C utils release",
+    "test": "tsc --noEmit --strict"
   },
   "dependencies": {
     "esno": "^4.0.0",
@@ -33,6 +34,7 @@
     "picocolors": "^1.0.0",
     "prompts": "^2.4.2",
     "typescript": "^5.3.3",
-    "utility-types": "^3.10.0"
+    "utility-types": "^3.10.0",
+    "vitest": "^3.0.6"
   }
 }
