@@ -1,1 +1,1 @@
-type MyOmit<T, K> = any
+export type MyOmit<T, K> = any
